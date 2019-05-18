@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Mogra|Pacifico|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Julien Villard</title>
+    <!-- I'm using Materialize as a CSS framework, this website includes only things that can be found on the Materialize website.
+    This website should be totally functional on mobiles and tablets. -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper cyan darken-1">
+                <a href="#" id="titlePortfolio">Portfolio</a>
+                <a href="#" class="brand-logo center">Julien Villard</a>
+                <a href="#" data-target="mobileNav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a class="waves-effect waves-purple" href="#about">Présentation</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-purple" href="#comp">Compétences</a>
+                    </li>
+                    <li><a class="waves-effect waves-purple" href="#cv">CV</a></li>
+                    <li>
+                        <a class="waves-effect waves-purple" href="#projet">Projets</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect waves-purple" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobileNav">
+        <li><a href="#about">Présentation</a></li>
+        <li><a href="#comp">Compétences</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#projet">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- Presentation -->
+    </div>
+    <div id="about" class="section white scrollspy">
+        <div class="row container">
+            <h2 class="header">Présentation</h2>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <img id="mypicture" src="img/IMG_1731.jpg" alt="">
+                    </div>
+                    <div class="col s12 m8">
+                        <h5>Bonjour et bienvenue sur mon portfolio numérique.</h5>
+                        <p>
+                            Je me présente : Julien Villard, 31 ans, actuellement en poste de
+                            Technicien
+                            Informatique et de responsable Smartphone iOS au sein du groupe coopératif agricole
+                            et agroalimentaire <a href="http://www.euralis.fr/" target="_blank">Euralis</a>.
+                        </p>
+                        <p>
+                            Après avoir débuté une carrière dans le social, j'ai choisi de me réorienter vers les
+                            métiers
+                            du
+                            numérique afin de transformer une passion en mon métier. Depuis ma jeunesse, j'ai toujours
+                            été attiré par les nouvelles technologies, ce qui m'a amené
+                            à apporter conseils et soutien technique lors de l'achat de matériel informatique dans le
+                            cadre privé. <br>
+                            Pour cette réorientation, j'ai choisi de débuter ma carrière par une formation en alternance
+                            en tant que Technicien
+                            Informatique afin de pouvoir capitaliser au maximum sur mon expérience relationnelle et mes
+                            compétences acquises
+                            dans mon parcours d'Educateur Spécialisé.
+                        </p>
+                        <p>
+                            Dans le but de progresser et d'acquérir de nouvelles compétences, je me dirige actuellement
+                            vers une formation de développeur Web et mobile complémentaire de celle de Technicien
+                            Informatique me permettant ainsi d'apporter une expertise complète à différents
+                            niveaux. <br>De même,
+                            j'ai
+                            pour objectif à plus long terme de m'orienter vers un cursus de Responsable en Ingénierie
+                            des Logiciels avec une spécialisation DevOps.
+                        </p>
+                        <p>
+                            Vous allez pouvoir trouver au travers de ce portfolio mes diverses compétences, mon parcours
+                            professionnel et
+                            scolaire ainsi que les différents projets sur lesquels j'ai travaillé.</p>
+                        <p>
+                            N'hésitez pas à me contacter en utilisant le formulaire de contact présent sur cette page !
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- First parallax image -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/background2.jpg" /></div>
+    </div>
+    <!-- Skills -->
+    <div id="comp" class="section white scrollspy">
+        <div class="row container">
+            <h2 class="header">Compétences</h2>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="row">
+                            <div class="col s12">
+                                <ul class="collection with-header">
+                                    <li class="collection-header">
+                                        <h4>Système et réseau / Support utilisateur</h4>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">OS Clients</h6>
+                                            <h6 class="col s2"> 80%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 80%"></div>
+                                        </div>
+                                        <p>Installation, configuration, dépannage et administration des OS Windows 7/10,
+                                            Linux Ubuntu/Debian, iOS, Android.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">OS Serveurs</h6>
+                                            <h6 class="col s2"> 60%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 60%"></div>
+                                        </div>
+                                        <p>Installation, configuration et administration des OS serveurs Windows 2012 à
+                                            2019, Linux dont Active Directory, DHCP, gestion des droits d'accès.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Virtualisation</h6>
+                                            <h6 class="col s2"> 40%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 40%"></div>
+                                        </div>
+                                        <p>Installation, configuration et administration d'infrastructure virtualisée
+                                            VMWare et Hyper-V.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Logiciels</h6>
+                                            <h6 class="col s2">70%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 70%"></div>
+                                        </div>
+                                        <p>Installation, configuration, résolution de problèmes et aide à l'utilisation
+                                            des suites Office (Word, Excel, Powerpoint) et GSuite.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Matériel</h6>
+                                            <h6 class="col s2">90%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 90%"></div>
+                                        </div>
+                                        <p>Analyse, conseils, réparation et montage d'ordinateur.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Réseau</h6>
+                                            <h6 class="col s2">50%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 50%"></div>
+                                        </div>
+                                        <p>Mise en place de Switch Cisco avec fonctionnalités avancées (VLAN),
+                                            connaissances sur IOS.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Support utilisateurs</h6>
+                                            <h6 class="col s2">90%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 90%"></div>
+                                        </div>
+                                        <p>Gestion des incidents et des problèmes via un outil ITSM, création de
+                                            procédures et gestion de la satisfation utilisateur.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Gestion de parc</h6>
+                                            <h6 class="col s2">90%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 90%"></div>
+                                        </div>
+                                        <p>Gestion du matériel via un outil ITSM, relation fournisseur.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col s12">
+                                <ul class="collection with-header">
+                                    <li class="collection-header">
+                                        <h4>Développement / Programmation</h4>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">HTML / CSS / Javascript</h6>
+                                            <h6 class="col s2">70%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 70%"></div>
+                                        </div>
+                                        <p>Développement front-end d'applications webs.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">PHP / MySQL</h6>
+                                            <h6 class="col s2">50%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 50%"></div>
+                                        </div>
+                                        <p>Développement back-end d'applications webs.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Node.JS</h6>
+                                            <h6 class="col s2">10%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 10%"></div>
+                                        </div>
+                                        <p>Débutant, tutoriel Angular réalisé.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Git / Github / Heroku</h6>
+                                            <h6 class="col s2">70%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 70%"></div>
+                                        </div>
+                                        <p>Contrôle de source et automatisation de la mise en production de site via
+                                            Heroku.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Powershell</h6>
+                                            <h6 class="col s2">60%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 60%"></div>
+                                        </div>
+                                        <p>Développement de scripts d'administration AD et automatisation de
+                                            l'installation d'OS clients et serveurs.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col s12">
+                                <ul class="collection with-header">
+                                    <li class="collection-header">
+                                        <h4>Compétences non-techniques</h4>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Accueil et accompagnement</h6>
+                                            <h6 class="col s2">80%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 80%"></div>
+                                        </div>
+                                        <p>Ecoute, suivi et accompagnement de personnes de manière empathique.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Communication</h6>
+                                            <h6 class="col s2">70%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 70%"></div>
+                                        </div>
+                                        <p>Capacité à communiquer efficacement de manière concise.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Anglais</h6>
+                                            <h6 class="col s2">90%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 90%"></div>
+                                        </div>
+                                        <p>Capacité à communiquer à l'écrit et à l'oral, niveau CEFR C2.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Travail en équipe</h6>
+                                            <h6 class="col s2">90%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 90%"></div>
+                                        </div>
+                                        <p>Sens du collectif et de la collaboration.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Gestion de projets</h6>
+                                            <h6 class="col s2">60%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 60%"></div>
+                                        </div>
+                                        <p>Analyse du besoin, élaboration et conduite de projets.</p>
+                                    </li>
+                                    <li class="collection-item">
+                                        <div class="row">
+                                            <h6 class="col s10 compFont">Veille technologique</h6>
+                                            <h6 class="col s2">90%</h6>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="determinate cyan darken-2" style="width: 90%"></div>
+                                        </div>
+                                        <p>Analyse régulière des évolutions de la sphère IT.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Parallax image -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/background3.jpg" /></div>
+    </div>
+    <!-- CV -->
+    <div id="cv" class="section white scrollspy">
+        <div class="row container">
+            <h2 class="header">CV</h2>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="col s12 m6">
+                    <h3>Expériences</h3>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle cyan darken-2">business_center</i>
+                            <span class="title">Technicien informatique</span>
+                            <p class="cvFont">Euralis (Lescar) de Septembre 2017 à Octobre 2019</p>
+                            <p>- Support utilisateurs et gestion de parc informatique <br>- Co-responsable Smartphone
+                                pour la partie iOS <br>- Responsable projet sur la sauvegarde des postes clients</p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle cyan darken-2">business_center</i>
+                            <span class="title">Animateur informatique</span>
+                            <p class="cvFont">SIFA de l'Adapei 64 (Pau) de Mai 2014 à Aout 2014</p>
+                            <p>- Animation de groupe et individuelle <br>- Accompagnement individuel <br>- Veille
+                                technologique</p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle cyan darken-2">business_center</i>
+                            <span class="title">Educateur Spécialisé</span>
+                            <p class="cvFont">SIFA de l'Adapei 64 (Pau) de Janvier 2012 à Décembre 2012</p>
+                            <p>- Accompagnement individualisé d'adulte vivant une situation de handicap <br>- Gestion de
+                                projets individualisés <br>- Insertion sociale et professionnelle</p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle cyan darken-2">business_center</i>
+                            <span class="title">Préparateur de commandes</span>
+                            <p class="cvFont">Chronodrive (Le Haillan) d'Octobre 2008 à Septembre 2009</p>
+                            <p>- Préparation de commande <br>- Gestion de
+                                stock</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m6">
+                    <h3>Formations</h3>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle cyan darken-2">class</i>
+                            <span class="title">Gestionnaire en Maintenance et Support Informatique</span>
+                            <p class="cvFont">CESI (Pau) d'Octobre 2017 à aujourd'hui</p>
+                            <p>- Déploiement, gestion et administration de parc informatique <br>- Support utilisateur
+                                <br>- Développement simple de sites web <br>- Administration d'infrastructure système et
+                                réseau
+                            </p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle cyan darken-2">class</i>
+                            <span class="title">Educateur Spécialisé</span>
+                            <p class="cvFont">ITS Pierre Bourdieu (Pau) de Septembre 2010 à Décembre 2012</p>
+                            <p>- Formation stoppée pour raisons de santé, diplôme non obtenu</p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle cyan darken-2">class</i>
+                            <span class="title">Licence Langues Etrangères Appliquées</span>
+                            <p class="cvFont">Université Bordeaux 3 en 2008</p>
+                            <p>- Premières années Anglais/Espagnol et Anglais/Japonais</p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle cyan darken-2">class</i>
+                            <span class="title">Baccalauréat économique et social</span>
+                            <p class="cvFont">Lycée Saint-Cricq (Pau) en 2006</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row container">
+            <div class="center-align">
+                <a class="waves-effect waves-purple btn" href="files/cv.pdf" target="_blank"><i
+                        class="far fa-file-pdf left"></i>Visualiser le CV au format PDF</a>
+            </div>
+        </div>
+    </div>
+    <!-- Parallax image -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/background6.jpg" /></div>
+    </div>
+    <!-- Projects -->
+    <div id="projet" class="section white scrollspy">
+        <div class="row container">
+            <h2 class="header">Projets</h2>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 m4 center-align">
+                        <a class="modal-trigger" href="#modal1"><img class="responsive-img modalBorder"
+                                src="img/sas.png" alt=""></a>
+                        <h5>SAS</h5>
+                    </div>
+                    <div class="col s12 m4 center-align">
+                        <a class="modal-trigger" href="#modal2"><img class="responsive-img modalBorder"
+                                src="img/start.png" alt=""></a>
+                        <h5>START</h5>
+                    </div>
+                    <div class="col s12 m4 center-align">
+                        <a class="modal-trigger" href="#modal3"><img class="responsive-img modalBorder"
+                                src="img/evo.png" alt=""></a>
+                        <h5>EVOLUTION</h5>
+                    </div>
+                    <div class="col s12 m4 center-align">
+                        <a class="modal-trigger" href="#modal4"><img class="responsive-img modalBorder"
+                                src="img/cash1.png" alt=""></a>
+                        <h5>CAS H Partie 1</h5>
+                    </div>
+                    <div class="col s12 m4 center-align">
+                        <a class="modal-trigger" href="#modal5"><img class="responsive-img modalBorder"
+                                src="img/cash2.png" alt=""></a>
+                        <h5>CAS H Partie 2</h5>
+                    </div>
+                    <div class="col s12 m4 center-align">
+                        <a class="modal-trigger" href="#modal6"><img class="responsive-img modalBorder"
+                                src="img/port.png" alt=""></a>
+                        <h5>PORTFOLIO</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals for projects -->
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Projet SAS</h4>
+            <p>Le projet SAS a pour objectif d'acquérir les comportements appropriés en entreprise, d'identifier le
+                cadre réglementaire et d'être capable d'apporter des solutions à une problématique de sauvegarde.</p>
+            <p>Ce projet a été réalisé en groupe dans le cadre de la formation de GMSI au sein du CESI de Pau. <br>
+                La visualisation de la présentation directement en ligne peut présenter un résultat dégradé en
+                comparaison du fichier ouvert via le logiciel PowerPoint.</p>
+            <div class="center-align">
+                <a class="waves-effect waves-purple btn btnModal" href="files/sas.pdf" target="_blank"><i
+                        class="far fa-file-pdf left"></i>Visualiser le
+                    dossier</a>
+                <a class="waves-effect waves-purple btn btnModal" href="files/sas.pptx" target="_blank"><i
+                        class="far fa-file-powerpoint left"></i>Visualiser
+                    la présentation</a>
+                <a class="waves-effect waves-purple btn btnModal" href="files/sas.zip"><i
+                        class="far fa-file-archive left"></i>Télécharger le contenu intégral</a>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4>Projet START</h4>
+            <p>Le projet START a pour objectif de :
+                <ul>
+                    <li>- Maitriser l’Installation, la configuration, l’administration et l’optimisation et la
+                        maintenance d’un système d’exploitation dans un environnement propriétaire « Windows »</li>
+                    <li>- Maitriser l’Installation, la configuration, l’administration et l’optimisation et la
+                        maintenance d’un système d’exploitation environnement libre « linux »</li>
+                    <li>- Maitriser l’utilisation d’un logiciel de masterisation et de déploiement</li>
+                    <li>- Maitriser le fonctionnement des réseaux locaux (câblage, lan, tcp/ip, protocole, plan
+                        adressage)</li>
+                    <li>- Etre capable d’installer et configurer des applications (bureautique, antivirus, application
+                        métier ...)</li>
+                    <li>- Etre capable de maintenir et dépanner les systèmes sur le poste de travail</li>
+                </ul>
+            </p>
+            <p>Ce projet a été réalisé en groupe dans le cadre de la formation de GMSI au sein du CESI de Pau. <br>
+                La visualisation de la présentation directement en ligne peut présenter un résultat dégradé en
+                comparaison du fichier ouvert via le logiciel PowerPoint.</p>
+            <div class="center-align">
+                <a class="waves-effect waves-purple btn btnModal" href="files/start.pdf" target="_blank"><i
+                        class="far fa-file-pdf left"></i>Visualiser le
+                    dossier</a>
+                <a class="waves-effect waves-purple btn btnModal" href="files/start.pptx" target="_blank"><i
+                        class="far fa-file-powerpoint left"></i>Visualiser
+                    la présentation</a>
+                <a class="waves-effect waves-purple btn btnModal" href="files/start.zip"><i
+                        class="far fa-file-archive left"></i>Télécharger le contenu intégral</a>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <h4>Projet EVOLUTION</h4>
+            <p>Le projet EVOLUTION a pour objectif de :
+                <ul>
+                    <li>- Mettre en oeuvre les outils d'administration de Windows server</li>
+                    <li>- Etre capable de sécuriser l'accès aux réseaux et aux données de l’entreprise</li>
+                    <li>- Rédiger des rapports écrits adaptés au contexte professionnel</li>
+                    <li>- Etre capable de créer et gérer une base de données relationnelle</li>
+                    <li>- Etre capable d’automatiser les taches à l’aide d’un outil de programmation (Powershell)</li>
+                </ul>
+            </p>
+            <p>Ce projet a été réalisé en groupe dans le cadre de la formation de GMSI au sein du CESI de Pau. <br>
+                La visualisation de la présentation directement en ligne peut présenter un résultat dégradé en
+                comparaison du fichier ouvert via le logiciel PowerPoint.</p>
+            <div class="center-align">
+                <a class="waves-effect waves-purple btn btnModal" href="files/evo.pdf" target="_blank"><i
+                        class="far fa-file-pdf left"></i>Visualiser le
+                    dossier</a>
+                <a class="waves-effect waves-purple btn btnModal" href="files/evo.pptx" target="_blank"><i
+                        class="far fa-file-powerpoint left"></i>Visualiser
+                    la présentation</a>
+                <a class="waves-effect waves-purple btn btnModal" href="files/evo.zip"><i
+                        class="far fa-file-archive left"></i>Télécharger le contenu intégral</a>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <h4>Projet CAS H - Partie 1</h4>
+            <p>Le projet CAS H - Partie 1 a pour objectif de :
+                <ul>
+                    <li>- Comprendre un besoin</li>
+                    <li>- Réaliser une analyse fonctionnelle</li>
+                    <li>- Travailler en mode projet</li>
+                    <li>- Rédiger un cahier des charges</li>
+                </ul>
+            </p>
+            <p>Ce projet a été réalisé en individuel dans le cadre de la formation de GMSI au sein du CESI de Pau. <br>
+                A noter qu'il ne comporte pas de présentation et se compose exclusivement du cahier des charges au
+                format PDF.</p>
+            <div class="center-align">
+                <a class="waves-effect waves-purple btn btnModal" href="files/cash1.pdf" target="_blank"><i
+                        class="far fa-file-pdf left"></i>Visualiser le
+                    dossier</a>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <h4>Projet CAS H - Partie 2</h4>
+            <p>Le projet CAS H - Partie 2 a pour objectif de :
+                <ul>
+                    <li>- Répondre à un besoin et à un cahier des charges</li>
+                    <li>- Découvrir ITIL</li>
+                    <li>- Développer un plan de maintenance</li>
+                    <li>- Découvrir le marché des prestataires informatiques et la relation fournisseur</li>
+                    <li>- Découvrir les outils ITSM / ITAM</li>
+                </ul>
+            </p>
+            <p>Ce projet a été réalisé en groupe dans le cadre de la formation de GMSI au sein du CESI de Pau. <br>
+                La visualisation de la présentation directement en ligne peut présenter un résultat dégradé en
+                comparaison du fichier ouvert via le logiciel PowerPoint.
+            </p>
+            <div class="center-align">
+                <a class="waves-effect waves-purple btn btnModal" href="files/cash2.pdf" target="_blank"><i
+                        class="far fa-file-pdf left"></i>Visualiser le
+                    dossier</a>
+                <a class="waves-effect waves-purple btn btnModal" href="files/cash2.pptx" target="_blank"><i
+                        class="far fa-file-powerpoint left"></i>Visualiser
+                    la présentation</a>
+                <a class="waves-effect waves-purple btn btnModal" href="files/cash2.zip"><i
+                        class="far fa-file-archive left"></i>Télécharger le contenu intégral</a>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <h4>Projet PORTFOLIO</h4>
+            <p>Le projet PORTFOLIO a pour objectif la réalisation d'un site vitrine et sensibilise aux techniques de
+                recherche d'emploi.</p>
+            <p>Le site sur lequel vous naviguez actuellement est le résultat de ce projet, autant sur la forme que sur
+                le fond.</p>
+            <div class="center-align">
+                <a class="waves-effect waves-purple btn btnModal" href="https://github.com/Keup/Portfolio"
+                    target="_blank"><i class="fab fa-github left"></i>Code source
+                    du projet sur Github</a>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fermer</a>
+        </div>
+    </div>
+    <!-- Parallax image -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/background5.jpg" /></div>
+    </div>
+    <!-- Contact form -->
+    <div id="contact" class="section white scrollspy">
+        <div class="row container">
+            <h2 class="header">Contact</h2>
+            <div class="divider"></div>
+            <div class="section">
+                <div class="row">
+                    <form class="col s12" id="contactForm" method="POST" action="mail.php">
+                        <input type="hidden" id="token" name="token">
+                        <div class="row">
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="firstname" name="firstname" type="text" class="validate" required />
+                                <label for="firstname">Prénom</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="lastname" name="lastname" type="text" class="validate" required />
+                                <label for="lastname">Nom</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">phone</i>
+                                <input id="phone" name="phone" type="tel"
+                                    pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" class="validate" required />
+                                <label for="phone">Téléphone</label>
+                                <span class="helper-text"
+                                    data-error="Erreur dans le numéro de téléphone, merci de vérifier"
+                                    data-success="">Format 0123456789</span>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" name="email" type="email" class="validate" required />
+                                <label for="email">Email</label>
+                                <span class="helper-text" data-error="Erreur dans l'email, merci de vérifier"
+                                    data-success=""></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 m10 offset-m1">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea id="message" name="message" class="materialize-textarea" rows="2"
+                                    data-length="240" required></textarea>
+                                <label for="message">Message</label>
+                                <span class="helper-text" data-error="Merci de vérifier le nombre de caractère"
+                                    data-success=""></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <button class="btn waves-effect waves-light right" type="submit" name="action">Envoyer<i
+                                        class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of parallax image -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/background4.jpg" /></div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer cyan darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Merci pour votre lecture et votre attention !</h5>
+                    <p class="grey-text text-lighten-4">
+                        Si vous le souhaitez, vous pouvez également me retrouver sur divers réseaux sociaux et plateformes directement via les liens suivants.
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Liens</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i>Linkedin</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!" target="_blank"><i
+                                    class="fab fa-github"></i>Github</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="mailto:contact@julien-villard.tech"
+                                target="_blank"><i class="fas fa-paper-plane"></i>Email</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Julien Villard
+                <a class="grey-text text-lighten-4 right" href="https://materializecss.com" target="_blank">Powered
+                    by
+                    materializecss.com</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Leh15cUAAAAAHcB7V4eZTnx65eTs109EuM2z9aH"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>

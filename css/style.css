@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+footer i {
+    margin-right: 0.5em;
+}
+
+nav ul li a.active {
+    background-color: #0097a7;
+}
+
+.parallax-container {
+    height: auto;
+    min-height: 200px;
+}
+
+#mypicture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border-color: #00acc1;
+    border-style: solid;
+}
+
+.divider {
+    background-color: #0097a7;
+}
+
+.carousel {
+    min-height: 450px;
+}
+
+.title {
+    color: #0097a7;
+    font-weight: bolder;
+}
+
+.cvFont {
+    font-style: italic;
+}
+
+#titlePortfolio {
+    padding-left: 0.2em;
+}
+
+.compFont {
+    font-weight: bold;
+}
+
+.modalBorder {
+    border: solid 1px #0097a7;
+}
+
+.btnModal {
+    margin-top: 0.2em;
+}
