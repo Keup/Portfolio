@@ -55,3 +55,8 @@ nav ul li a.active {
 .btnModal {
     margin-top: 0.2em;
 }
+
+#pres {
+    text-align: justify;
+    text-justify: inter-word;
+}
