@@ -30,12 +30,11 @@ $('#contactForm').submit(function () {
       alert('Votre message a bien été envoyé.');
       $('#contactForm')[0].reset();
     } else {
-      alert("Erreur lors de l'envoi du message.");
+      alert("Erreur lors de l'envoi du message. Merci d'essayer de nouveau, si le problème venait à persister merci de contacter l'administrateur.");
     };
   }).fail(function () {
     alert("Erreur, merci de contacter l'administrateur.")
   }).always(function () {
-    // $('#contactForm')[0].reset();
     grecaptcha.execute('6Leh15cUAAAAAHcB7V4eZTnx65eTs109EuM2z9aH', { action: 'homepage' }).then(function (token) {
       $('#token').val(token);
     });
