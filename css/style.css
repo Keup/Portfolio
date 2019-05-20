@@ -2,6 +2,12 @@ body {
     font-family: 'Roboto', sans-serif !important;
 }
 
+#mainTitle{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #0097a7;
+}
+
 footer i {
     margin-right: 0.5em;
 }
